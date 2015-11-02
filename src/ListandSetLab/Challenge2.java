@@ -25,7 +25,7 @@ public class Challenge2 {
         
         
         for(Employee e : employees){
-            System.out.println(e.getFirstName() + " " + e.getLastName() + " has a ssn of " + e.getSsn());
+            System.out.println(e);
             
         }
         
