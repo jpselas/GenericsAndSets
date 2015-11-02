@@ -14,8 +14,8 @@ import java.util.*;
  */
 public class Challenge3 {
     public static void main(String[] args) {
-        Employee person1 = new Employee("Selas", "John","103455345");
-        Employee person2 = new Employee("Smith", "Bob","858568885");
+        Employee person1 = new Employee("Selas", "John","103-45-5345");
+        Employee person2 = new Employee("Smith", "Bob","858-56-8885");
         Dog dog1 = new Dog("Ralph",787);
         
         

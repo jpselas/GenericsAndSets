@@ -14,10 +14,10 @@ import java.util.*;
  */
 public class Challenge4 {
     public static void main(String[] args) {
-        Employee person1 = new Employee("Selas", "John","103455345");
-        Employee person2 = new Employee("Smith", "Bob","858568885");
-        Employee person3 = new Employee("Allen", "Joe","756753564");
-        Employee person4 = new Employee("Selas", "John","103455345");
+        Employee person1 = new Employee("Selas", "John","103-45-5345");
+        Employee person2 = new Employee("Smith", "Bob","858-56-8885");
+        Employee person3 = new Employee("Allen", "Joe","756-75-3564");
+        Employee person4 = new Employee("Selas", "John","103-45-5345");
         Set <Employee> employees = new HashSet<Employee>();
         
         employees.add(person1);
