@@ -47,7 +47,7 @@ class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" + "lastName=" + lastName + ", firstName=" + firstName + ", ssn=" + ssn + '}';
+        return firstName + " "+lastName + " has a ssn of " + ssn ;
     }
 
     @Override
