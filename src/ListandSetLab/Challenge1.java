@@ -23,6 +23,10 @@ public class Challenge1 {
     hobbies.add("Working on Car");
     hobbies.add("Building PCs");
     hobbies.add("Collecting Comics");
+    // how to add
+    //hobbies.add(2,"Tennis");
+    // how to remove
+    //hobbies.remove(2);
     String hobby = null;
     for(int i=0;i<hobbies.size();i++){
         
