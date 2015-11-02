@@ -20,13 +20,21 @@ public class Challenge3 {
         
         
         List stuff = new ArrayList();
-        stuff.add(person1.toString());
-        stuff.add(person2.toString());
-        stuff.add(dog1.toString());
+        stuff.add(person1);
+        stuff.add(person2);
+        stuff.add(dog1);
         
         for(int i= 0;i<stuff.size();i++){
-            String thing = (String)stuff.get(i);
-            System.out.println(thing);
+            Object o = new Object();
+            if(o instanceof Employee){
+                Employee e = (Employee)o;
+                System.out.println(e);
+            }else if(o instanceof Dog){
+                Dog d = (Dog)o;
+                System.out.println(d);
+                
+            }
+            
         }
         
     }
