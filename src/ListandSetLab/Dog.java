@@ -43,6 +43,28 @@ public class Dog {
         return "Dog's name is " + name + ", its rabiesID is " + rabiesId + '}';
     }
 
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 37 * hash + this.rabiesId;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Dog other = (Dog) obj;
+        if (this.rabiesId != other.rabiesId) {
+            return false;
+        }
+        return true;
+    }
+
     
 
 }
