@@ -38,6 +38,11 @@ public class Dog {
         this.rabiesId = rabiesId;
     }
 
+    @Override
+    public String toString() {
+        return "Dog's name is " + name + ", its rabiesID is " + rabiesId + '}';
+    }
+
     
 
 }

@@ -12,22 +12,21 @@ import java.util.*;
  *
  * @author John
  */
-public class Challenge3 {
+public class Challenge4 {
     public static void main(String[] args) {
         Employee person1 = new Employee("Selas", "John","103455345");
         Employee person2 = new Employee("Smith", "Bob","858568885");
-        Dog dog1 = new Dog("Ralph",007);
+        Employee person3 = new Employee("Allen", "Joe","756753564");
+        Employee person4 = new Employee("Selas", "John","103455345");
+        Set <Employee> employees = new HashSet<Employee>();
         
+        employees.add(person1);
+        employees.add(person2);
+        employees.add(person3);
+        employees.add(person4);
         
-        List stuff = new ArrayList();
-        stuff.add(person1.toString());
-        stuff.add(person2.toString());
-        stuff.add(dog1.toString());
-        
-        for(int i= 0;i<stuff.size();i++){
-            String thing = (String)stuff.get(i);
-            System.out.println(thing);
+        for(Employee e : employees){
+            System.out.println(e);
         }
-        
     }
 }
