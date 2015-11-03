@@ -23,7 +23,7 @@ public class Challenge4 {
         Employee person7 = new Employee("Selas", "John","103-45-5345");
         
         
-        Set <Employee> employees = new HashSet<Employee>();
+        Set <Employee> employees = new HashSet<>();
         
         employees.add(person1);
         employees.add(person2);
@@ -32,7 +32,7 @@ public class Challenge4 {
         employees.add(person5);
         employees.add(person6);
         employees.add(person7);
-        List <Employee> empList = new ArrayList<Employee>(employees);
+        List <Employee> empList = new ArrayList<>(employees);
         for(Employee e : empList){
             System.out.println(e);
         }

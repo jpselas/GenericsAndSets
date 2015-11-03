@@ -18,7 +18,7 @@ public class Challenge2 {
         Employee person2 = new Employee("Smith", "Bob","858-56-8885");
         Employee person3 = new Employee("Allen", "Joe","756-75-3564");
         
-        List <Employee> employees = new ArrayList<Employee>();
+        List <Employee> employees = new ArrayList<>();
         employees.add(person1);
         employees.add(person2);
         employees.add(person3);
