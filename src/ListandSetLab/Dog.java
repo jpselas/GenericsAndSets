@@ -40,7 +40,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog's name is " + name + ", its rabiesID is " + rabiesId + '}';
+        return "Dog's name is " + name + ", its rabiesID is " + rabiesId ;
     }
 
     @Override

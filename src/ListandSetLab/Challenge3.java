@@ -24,8 +24,8 @@ public class Challenge3 {
         stuff.add(person2);
         stuff.add(dog1);
         
-        for(int i= 0;i<stuff.size();i++){
-            Object o = new Object();
+        for (Object o : stuff) {
+            
             if(o instanceof Employee){
                 Employee e = (Employee)o;
                 System.out.println(e);
@@ -34,7 +34,6 @@ public class Challenge3 {
                 System.out.println(d);
                 
             }
-            
         }
         
     }
